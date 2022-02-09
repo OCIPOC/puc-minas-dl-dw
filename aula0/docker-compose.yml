@@ -1,0 +1,12 @@
+services:
+  webapp:
+    container_name: puc-minas-pyspark-notebook
+    build: .
+    command: start.sh jupyter lab --LabApp.token=''
+    ports:
+      - "8888:8888"
+    volumes:
+      - ${NOTEBOOKS_PATH}:/home/jovyan/work/notebooks/
+      - ${DATA_PATH}:/home/jovyan/work/datalake/
+    environment:
+      PYARROW_IGNORE_TIMEZONE: 1
