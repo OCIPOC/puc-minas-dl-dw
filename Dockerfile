@@ -1,4 +1,4 @@
-ARG VERSION_SPARK=3.1.2
+ARG VERSION_SPARK=spark-3.1.2
 
 FROM jupyter/pyspark-notebook:${VERSION_SPARK}
 
