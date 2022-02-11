@@ -1,0 +1,7 @@
+{"protocol":{"minReaderVersion":1,"minWriterVersion":2}}
+{"metaData":{"id":"3cc6434b-13c0-4df7-8586-af860a59fd6b","format":{"provider":"parquet","options":{}},"schemaString":"{\"type\":\"struct\",\"fields\":[{\"name\":\"user_id\",\"type\":\"long\",\"nullable\":true,\"metadata\":{}},{\"name\":\"email\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}}]}","partitionColumns":[],"configuration":{},"createdTime":1644507676160}}
+{"add":{"path":"part-00000-3859e3c7-6ed8-47e9-804f-0b63a0289e10-c000.snappy.parquet","partitionValues":{},"size":4723,"modificationTime":1644507676793,"dataChange":true}}
+{"add":{"path":"part-00001-14e9c17d-7855-489b-a27e-5617c4bebaa6-c000.snappy.parquet","partitionValues":{},"size":4779,"modificationTime":1644507676791,"dataChange":true}}
+{"add":{"path":"part-00002-81a1cdd4-e8f8-459e-bb18-3e0c8a9f482b-c000.snappy.parquet","partitionValues":{},"size":4699,"modificationTime":1644507676791,"dataChange":true}}
+{"add":{"path":"part-00003-37339349-7f21-4c8c-bd66-40f5cc2a3d55-c000.snappy.parquet","partitionValues":{},"size":4714,"modificationTime":1644507676792,"dataChange":true}}
+{"commitInfo":{"timestamp":1644507677575,"operation":"WRITE","operationParameters":{"mode":"Overwrite","partitionBy":"[]"},"isolationLevel":"Serializable","isBlindAppend":false,"operationMetrics":{"numFiles":"4","numOutputRows":"800","numOutputBytes":"18915"},"engineInfo":"Apache-Spark/3.2.1 Delta-Lake/1.1.0"}}
